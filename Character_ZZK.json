@@ -1,0 +1,12 @@
+{
+    "id": "Character_ZZK",
+    "name": "猪猪凯",
+    "author": "JokerXuan",
+    "description": "一个全新可玩角色-猪猪凯",
+    "version": "0.1.0",
+    "min_game_version": "0.107.1",
+    "has_pck": true,
+    "has_dll": true,
+    "dependencies": [], 
+    "affects_gameplay": true
+  }
