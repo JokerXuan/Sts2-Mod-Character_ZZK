@@ -22,6 +22,9 @@
       <HintPath>$(Sts2DataDir)\0Harmony.dll</HintPath>
       <Private>false</Private>
     </Reference>
+
+    <!-- RitsuLib：提供 RitsuLibFramework、ModTypeDiscoveryHub、自动注册等 -->
+    <PackageReference Include="STS2.RitsuLib" Version="*" />
   </ItemGroup>
 
   <!-- 自动复制dll和json -->
