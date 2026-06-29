@@ -1,0 +1,7 @@
+{
+  "CHARACTER_ZZK_CARD_PIG_STRIKE.title": "Pig Strike",
+  "CHARACTER_ZZK_CARD_PIG_STRIKE.description": "Deal {Damage:diff()} damage.",
+
+  "CHARACTER_ZZK_CARD_PIG_GUARD.title": "Pig Guard",
+  "CHARACTER_ZZK_CARD_PIG_GUARD.description": "Gain {Block:diff()} Block."
+}

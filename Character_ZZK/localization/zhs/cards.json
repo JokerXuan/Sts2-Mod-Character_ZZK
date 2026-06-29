@@ -1,0 +1,7 @@
+{
+  "CHARACTER_ZZK_CARD_PIG_STRIKE.title": "猪猪打击",
+  "CHARACTER_ZZK_CARD_PIG_STRIKE.description": "造成{Damage:diff()}点伤害",
+
+  "CHARACTER_ZZK_CARD_PIG_GUARD.title": "猪猪防御",
+  "CHARACTER_ZZK_CARD_PIG_GUARD.description": "获得{Block:diff()}点格挡"
+}

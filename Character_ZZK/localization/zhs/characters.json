@@ -1,0 +1,17 @@
+{
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.aromaPrinciple": "[sine][pink]呼噜……猪猪凯正在思考。[/pink][/sine]",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.banter.alive.endTurnPing": "轮到你啦，别睡着。",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.banter.dead.endTurnPing": "猪猪凯暂时躺平了……",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.cardsModifierDescription": "猪猪凯的卡牌现在会出现在奖励和商店中。",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.cardsModifierTitle": "猪猪凯卡牌",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.description": "一个全新的可玩角色。\n目前机制仍在开发中，暂时使用占位资源。",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.eventDeathPrevention": "猪猪凯还不能倒下！",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.goldMonologue": "[sine]金币……可以换很多好吃的。[/sine]",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.possessiveAdjective": "他的",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.pronounObject": "他",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.pronounPossessive": "他的",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.pronounSubject": "他",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.title": "猪猪凯",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.titleObject": "猪猪凯",
+    "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.unlockText": "用[pink]{Prerequisite}[/pink]进行一局游戏来解锁这个角色。"
+}

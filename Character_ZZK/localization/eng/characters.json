@@ -1,0 +1,17 @@
+{
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.aromaPrinciple": "[sine][pink]Oink... Pig Kai is thinking.[/pink][/sine]",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.banter.alive.endTurnPing": "Your turn. Do not fall asleep.",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.banter.dead.endTurnPing": "Pig Kai is taking a short nap...",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.cardsModifierDescription": "Pig Kai cards now appear in rewards and shops.",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.cardsModifierTitle": "Pig Kai Cards",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.description": "A new playable character.\nHis core mechanics are still under development, using placeholder assets for now.",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.eventDeathPrevention": "Pig Kai cannot fall yet!",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.goldMonologue": "[sine]Gold... That can buy a lot of snacks.[/sine]",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.possessiveAdjective": "his",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.pronounObject": "him",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.pronounPossessive": "his",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.pronounSubject": "he",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.title": "Pig Kai",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.titleObject": "Pig Kai",
+  "CHARACTER_ZZK_CHARACTER_PIG_KAI_CHARACTER.unlockText": "Play a run with [pink]{Prerequisite}[/pink] to unlock this character."
+}
