@@ -3,5 +3,8 @@
   "CHARACTER_ZZK_CARD_PIG_STRIKE.description": "造成{Damage:diff()}点伤害",
 
   "CHARACTER_ZZK_CARD_PIG_GUARD.title": "猪猪防御",
-  "CHARACTER_ZZK_CARD_PIG_GUARD.description": "获得{Block:diff()}点格挡"
+  "CHARACTER_ZZK_CARD_PIG_GUARD.description": "获得{Block:diff()}点格挡",
+
+  "CHARACTER_ZZK_CARD_BLAZING_TIGER_AWAKENING.title": "炽虎觉醒",
+  "CHARACTER_ZZK_CARD_BLAZING_TIGER_AWAKENING.description": "五灵威力，变身：[gold]炽虎形态[/gold]"
 }

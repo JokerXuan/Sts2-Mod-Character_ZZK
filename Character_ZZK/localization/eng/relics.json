@@ -1,5 +1,5 @@
 {
-    "CHARACTER_ZZK_RELIC_PIGGY_TOKEN.title": "Piggy Token",
-    "CHARACTER_ZZK_RELIC_PIGGY_TOKEN.description": "Pig Kai's starting relic. It has no effect in the current version.",
-    "CHARACTER_ZZK_RELIC_PIGGY_TOKEN.flavor": "A tiny charm carefully kept by Pig Kai. It seems to carry a little courage."
+    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.title": "Five-Spirit Lock",
+    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.description": "Pig Kai's starting relic. It guides the Five-Spirit forms. It does not automatically create form cards yet.",
+    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.flavor": "Five sleeping lights rest inside the lock, waiting to be awakened."
 }

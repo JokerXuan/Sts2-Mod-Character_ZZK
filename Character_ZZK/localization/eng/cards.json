@@ -3,5 +3,8 @@
   "CHARACTER_ZZK_CARD_PIG_STRIKE.description": "Deal {Damage:diff()} damage.",
 
   "CHARACTER_ZZK_CARD_PIG_GUARD.title": "Pig Guard",
-  "CHARACTER_ZZK_CARD_PIG_GUARD.description": "Gain {Block:diff()} Block."
+  "CHARACTER_ZZK_CARD_PIG_GUARD.description": "Gain {Block:diff()} Block.",
+
+  "CHARACTER_ZZK_CARD_BLAZING_TIGER_AWAKENING.title": "Blazing Tiger Awakening",
+  "CHARACTER_ZZK_CARD_BLAZING_TIGER_AWAKENING.description": "Five-Spirit Power, transform into [gold]Blazing Tiger Form[/gold]."
 }
