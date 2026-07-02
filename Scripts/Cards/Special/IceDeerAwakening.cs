@@ -60,6 +60,12 @@ public class IceDeerAwakening : ModCardTemplate
             base.Owner.Creature,
             this
         );
+
+        await FiveSpiritResonance.TriggerIceDeer(
+            choiceContext,
+            base.Owner,
+            this
+        );
     }
 
     protected override void OnUpgrade()

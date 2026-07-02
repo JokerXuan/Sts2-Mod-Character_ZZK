@@ -60,6 +60,12 @@ public class FireCraneAwakening : ModCardTemplate
             base.Owner.Creature,
             this
         );
+
+        await FiveSpiritResonance.TriggerFireCrane(
+            choiceContext,
+            base.Owner,
+            this
+        );
     }
 
     protected override void OnUpgrade()

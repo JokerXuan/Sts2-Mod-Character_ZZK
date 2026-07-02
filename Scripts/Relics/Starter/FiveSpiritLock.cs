@@ -21,7 +21,7 @@ namespace Character_ZZK.Scripts.Relics.Starter;
 [RegisterCharacterStarterRelic(typeof(PigKaiCharacter))]
 public class FiveSpiritLock : ModRelicTemplate
 {
-    private const int StartingMarkAmount = 1;
+    private const int StartingMarkAmount = 99;
 
     public override RelicRarity Rarity => RelicRarity.Starter;
 

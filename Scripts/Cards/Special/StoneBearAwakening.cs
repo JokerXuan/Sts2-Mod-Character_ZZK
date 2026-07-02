@@ -60,6 +60,12 @@ public class StoneBearAwakening : ModCardTemplate
             base.Owner.Creature,
             this
         );
+
+        await FiveSpiritResonance.TriggerStoneBear(
+            choiceContext,
+            base.Owner,
+            this
+        );
     }
 
     protected override void OnUpgrade()

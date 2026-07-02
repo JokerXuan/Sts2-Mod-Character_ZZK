@@ -1,5 +1,5 @@
 {
     "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.title": "五灵锁",
-    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.description": "战斗开始时，获得[blue]1[/blue]层灵源印记。每回合抽牌前，若手牌中没有五灵觉醒牌，随机将一张未处于对应形态的五灵觉醒牌加入你的手牌。",
+    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.description": "战斗开始时，获得[blue]2[/blue]层灵源印记。每回合抽牌前，若手牌中没有五灵觉醒牌，随机将一张未处于对应形态的五灵觉醒牌加入你的手牌。",
     "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.flavor": "五灵威力，变身！"
 }

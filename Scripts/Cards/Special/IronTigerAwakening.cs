@@ -70,6 +70,12 @@ public class IronTigerAwakening : ModCardTemplate
             base.Owner.Creature,
             this
         );
+
+        await FiveSpiritResonance.TriggerIronTiger(
+            choiceContext,
+            base.Owner,
+            this
+        );
     }
 
     protected override void OnUpgrade()

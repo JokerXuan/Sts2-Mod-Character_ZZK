@@ -1,23 +1,43 @@
 {
     "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.title": "Iron Tiger Form",
-    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.description": "Five-Spirit Power, transform into [gold]Iron Tiger Form[/gold].",
-    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [gold]Iron Tiger Form[/gold].",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.description": "Resonance: Gain [blue]X[/blue] Strength this turn. X is the number of Iron Tiger Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.smartDescription": "Resonance: Gain [blue]X[/blue] Strength this turn. X is the number of Iron Tiger Resonances triggered this combat.",
 
     "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.title": "Wood Ape Form",
-    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.description": "Five-Spirit Power, transform into [green]Wood Ape Form[/green].",
-    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [green]Wood Ape Form[/green].",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.description": "Resonance: Permanently gain [blue]1[/blue] Max Energy this run and draw [blue]1[/blue] card.",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.smartDescription": "Resonance: Gain [blue]1[/blue] Max Energy and draw [blue]1[/blue] card.",
 
     "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.title": "Ice Deer Form",
-    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.description": "Five-Spirit Power, transform into [blue]Ice Deer Form[/blue].",
-    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [blue]Ice Deer Form[/blue].",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.description": "Resonance: All enemies lose [blue]X[/blue] Strength this turn. X is the number of Ice Deer Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.smartDescription": "Resonance: All enemies lose [blue]X[/blue] Strength this turn. X is the number of Ice Deer Resonances triggered this combat.",
 
     "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.title": "Fire Crane Form",
-    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.description": "Five-Spirit Power, transform into [red]Fire Crane Form[/red].",
-    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [red]Fire Crane Form[/red].",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.description": "Resonance: Deal [blue]X[/blue] damage to all enemies a number of times equal to your current Energy. X is the number of Fire Crane Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.smartDescription": "Resonance: Deal [blue]X[/blue] damage to all enemies a number of times equal to your current Energy. X is the number of Fire Crane Resonances triggered this combat.",
 
     "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.title": "Stone Bear Form",
-    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.description": "Five-Spirit Power, transform into [brown]Stone Bear Form[/brown].",
-    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [brown]Stone Bear Form[/brown].",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.description": "Resonance: Gain [blue]X[/blue] Plating. X is the number of Stone Bear Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.smartDescription": "Resonance: Gain [blue]X[/blue] Plating. X is the number of Stone Bear Resonances triggered this combat.",
+
+    "CHARACTER_ZZK_POWER_IRON_TIGER_RESONANCE_COUNT_POWER.title": "Iron Tiger Resonance",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_RESONANCE_COUNT_POWER.description": "Tracks the number of Iron Tiger Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_RESONANCE_COUNT_POWER.smartDescription": "Iron Tiger Resonance count this combat: [blue]{Amount}[/blue].",
+
+    "CHARACTER_ZZK_POWER_WOOD_APE_RESONANCE_COUNT_POWER.title": "Wood Ape Resonance",
+    "CHARACTER_ZZK_POWER_WOOD_APE_RESONANCE_COUNT_POWER.description": "Tracks the number of Wood Ape Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_WOOD_APE_RESONANCE_COUNT_POWER.smartDescription": "Wood Ape Resonance count this combat: [blue]{Amount}[/blue].",
+
+    "CHARACTER_ZZK_POWER_ICE_DEER_RESONANCE_COUNT_POWER.title": "Ice Deer Resonance",
+    "CHARACTER_ZZK_POWER_ICE_DEER_RESONANCE_COUNT_POWER.description": "Tracks the number of Ice Deer Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_ICE_DEER_RESONANCE_COUNT_POWER.smartDescription": "Ice Deer Resonance count this combat: [blue]{Amount}[/blue].",
+
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_RESONANCE_COUNT_POWER.title": "Fire Crane Resonance",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_RESONANCE_COUNT_POWER.description": "Tracks the number of Fire Crane Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_RESONANCE_COUNT_POWER.smartDescription": "Fire Crane Resonance count this combat: [blue]{Amount}[/blue].",
+
+    "CHARACTER_ZZK_POWER_STONE_BEAR_RESONANCE_COUNT_POWER.title": "Stone Bear Resonance",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_RESONANCE_COUNT_POWER.description": "Tracks the number of Stone Bear Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_RESONANCE_COUNT_POWER.smartDescription": "Stone Bear Resonance count this combat: [blue]{Amount}[/blue].",
 
     "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.title": "Spirit Source Mark",
     "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.description": "Five-Spirit power engraved within Pig Kai.",

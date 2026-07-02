@@ -60,6 +60,12 @@ public class WoodApeAwakening : ModCardTemplate
             base.Owner.Creature,
             this
         );
+
+        await FiveSpiritResonance.TriggerWoodApe(
+            choiceContext,
+            base.Owner,
+            this
+        );
     }
 
     protected override void OnUpgrade()

@@ -11,7 +11,8 @@ namespace Character_ZZK.Scripts.Powers.Buffs;
 
 /// <summary>
 /// 灵源印记。
-/// 猪猪凯自身积蓄的五灵之力。当前阶段只负责叠层显示，暂不实现消耗与共鸣。
+/// 猪猪凯自身积蓄的五灵之力。
+/// 当前阶段：可以刻印、查询层数、被共鸣消耗。
 /// </summary>
 [RegisterPower]
 public class FiveSpiritMarkPower : ModPowerTemplate
@@ -27,7 +28,6 @@ public class FiveSpiritMarkPower : ModPowerTemplate
 
     /// <summary>
     /// 刻印：让猪猪凯自己获得灵源印记。
-    /// 后续所有“刻印 X”的卡牌都应该调用这个方法。
     /// </summary>
     public static async Task ApplyMark(
         PlayerChoiceContext choiceContext,
@@ -53,5 +53,56 @@ public class FiveSpiritMarkPower : ModPowerTemplate
             ownerCreature,
             cardSource
         );
+    }
+
+    /// <summary>
+    /// 读取当前灵源印记层数。
+    /// </summary>
+    public static int GetMarkAmount(Creature ownerCreature)
+    {
+        FiveSpiritMarkPower? markPower =
+            ownerCreature.GetPower<FiveSpiritMarkPower>();
+
+        return markPower == null ? 0 : (int)markPower.Amount;
+    }
+
+    /// <summary>
+    /// 尝试消耗指定层数的灵源印记。
+    /// 如果层数不足，返回 false。
+    /// </summary>
+    public static async Task<bool> TryConsumeMark(
+        PlayerChoiceContext choiceContext,
+        Creature ownerCreature,
+        int amount,
+        CardModel? cardSource
+    )
+    {
+        if (amount <= 0)
+        {
+            return true;
+        }
+
+        FiveSpiritMarkPower? markPower =
+            ownerCreature.GetPower<FiveSpiritMarkPower>();
+
+        if (markPower == null)
+        {
+            return false;
+        }
+
+        if (markPower.Amount < amount)
+        {
+            return false;
+        }
+
+        await PowerCmd.ModifyAmount(
+            choiceContext,
+            markPower,
+            -amount,
+            ownerCreature,
+            cardSource
+        );
+
+        return true;
     }
 }

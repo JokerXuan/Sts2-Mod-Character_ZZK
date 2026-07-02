@@ -6,19 +6,19 @@
   "CHARACTER_ZZK_CARD_PIG_GUARD.description": "获得{Block:diff()}点格挡",
 
   "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.title": "铁虎觉醒",
-  "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.description": "五灵威力变身：[gold]铁虎形态[/gold]",
+  "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.description": "五灵威力变身：[gold]铁虎形态[/gold]，消耗[blue]2[/blue]层灵源印记，共鸣。",
 
   "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.title": "木猿觉醒",
-  "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.description": "五灵威力变身：[green]木猿形态[/green]。",
+  "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.description": "五灵威力变身：[green]木猿形态[/green]，消耗[blue]2[/blue]层灵源印记，共鸣。",
 
   "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.title": "冰鹿觉醒",
-  "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.description": "五灵威力变身：[blue]冰鹿形态[/blue]。",
+  "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.description": "五灵威力变身：[blue]冰鹿形态[/blue]，消耗[blue]2[/blue]层灵源印记，共鸣。",
 
   "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.title": "火鹤觉醒",
-  "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.description": "五灵威力变身：[red]火鹤形态[/red]。",
+  "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.description": "五灵威力变身：[red]火鹤形态[/red]，消耗[blue]2[/blue]层灵源印记，共鸣。",
 
   "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.title": "石熊觉醒",
-  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "五灵威力变身：[brown]石熊形态[/brown]。",
+  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "五灵威力变身：[orange]石熊形态[/orange]，消耗[blue]2[/blue]层灵源印记，共鸣。",
 
   "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.title": "灵印击",
   "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.description": "造成{Damage:diff()}点伤害。刻印1"
