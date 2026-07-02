@@ -5,6 +5,21 @@
   "CHARACTER_ZZK_CARD_PIG_GUARD.title": "Pig Guard",
   "CHARACTER_ZZK_CARD_PIG_GUARD.description": "Gain {Block:diff()} Block.",
 
-  "CHARACTER_ZZK_CARD_BLAZING_TIGER_AWAKENING.title": "Blazing Tiger Awakening",
-  "CHARACTER_ZZK_CARD_BLAZING_TIGER_AWAKENING.description": "Five-Spirit Power, transform into [gold]Blazing Tiger Form[/gold]."
+  "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.title": "Iron Tiger Awakening",
+  "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.description": "Five-Spirit Power, transform into [gold]Iron Tiger Form[/gold].",
+
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.title": "Spirit Seal Strike",
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.description": "Deal {Damage:diff()} damage. Mark 1.",
+
+  "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.title": "Wood Ape Awakening",
+  "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.description": "Five-Spirit Power, transform into [green]Wood Ape Form[/green].",
+
+  "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.title": "Ice Deer Awakening",
+  "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.description": "Five-Spirit Power, transform into [blue]Ice Deer Form[/blue].",
+
+  "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.title": "Fire Crane Awakening",
+  "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.description": "Five-Spirit Power, transform into [red]Fire Crane Form[/red].",
+
+  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.title": "Stone Bear Awakening",
+  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "Five-Spirit Power, transform into [brown]Stone Bear Form[/brown]."
 }

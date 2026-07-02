@@ -1,5 +1,25 @@
 {
-    "CHARACTER_ZZK_POWER_BLAZING_TIGER_FORM_POWER.title": "Blazing Tiger Form",
-    "CHARACTER_ZZK_POWER_BLAZING_TIGER_FORM_POWER.description": "One of the Five-Spirit forms. Currently used to test form switching.",
-    "CHARACTER_ZZK_POWER_BLAZING_TIGER_FORM_POWER.smartDescription": "One of the Five-Spirit forms. Currently used to test form switching."
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.title": "Iron Tiger Form",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.description": "Five-Spirit Power, transform into [gold]Iron Tiger Form[/gold].",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [gold]Iron Tiger Form[/gold].",
+
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.title": "Wood Ape Form",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.description": "Five-Spirit Power, transform into [green]Wood Ape Form[/green].",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [green]Wood Ape Form[/green].",
+
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.title": "Ice Deer Form",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.description": "Five-Spirit Power, transform into [blue]Ice Deer Form[/blue].",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [blue]Ice Deer Form[/blue].",
+
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.title": "Fire Crane Form",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.description": "Five-Spirit Power, transform into [red]Fire Crane Form[/red].",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [red]Fire Crane Form[/red].",
+
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.title": "Stone Bear Form",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.description": "Five-Spirit Power, transform into [brown]Stone Bear Form[/brown].",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.smartDescription": "Five-Spirit Power, transform into [brown]Stone Bear Form[/brown].",
+
+    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.title": "Spirit Source Mark",
+    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.description": "Five-Spirit power engraved within Pig Kai.",
+    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.smartDescription": "Has [blue]{Amount}[/blue] Spirit Source Mark."
 }

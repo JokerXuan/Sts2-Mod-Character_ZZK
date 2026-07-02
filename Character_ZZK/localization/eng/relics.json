@@ -1,5 +1,5 @@
 {
     "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.title": "Five-Spirit Lock",
-    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.description": "Pig Kai's starting relic. It guides the Five-Spirit forms. It does not automatically create form cards yet.",
-    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.flavor": "Five sleeping lights rest inside the lock, waiting to be awakened."
+    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.description": "At the start of combat, gain [blue]1[/blue] Spirit Source Mark. Before you draw each turn, if you have no Five-Spirit Awakening card in hand, add a random one whose form you are not currently in to your hand.",
+    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.flavor": "Five-Spirit Power, transform!"
 }

@@ -1,5 +1,25 @@
 {
-    "CHARACTER_ZZK_POWER_BLAZING_TIGER_FORM_POWER.title": "炽虎形态",
-    "CHARACTER_ZZK_POWER_BLAZING_TIGER_FORM_POWER.description": "五灵形态之一。当前版本仅用于测试形态切换。",
-    "CHARACTER_ZZK_POWER_BLAZING_TIGER_FORM_POWER.smartDescription": "五灵形态之一。当前版本仅用于测试形态切换。"
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.title": "铁虎形态",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.description": "五灵威力，变身：[gold]铁虎形态[/gold]。",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.smartDescription": "五灵威力，变身：[gold]铁虎形态[/gold]。",
+
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.title": "木猿形态",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.description": "五灵威力，变身：[green]木猿形态[/green]。",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.smartDescription": "五灵威力，变身：[green]木猿形态[/green]。",
+
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.title": "冰鹿形态",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.description": "五灵威力，变身：[blue]冰鹿形态[/blue]。",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.smartDescription": "五灵威力，变身：[blue]冰鹿形态[/blue]。",
+
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.title": "火鹤形态",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.description": "五灵威力，变身：[red]火鹤形态[/red]。",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.smartDescription": "五灵威力，变身：[red]火鹤形态[/red]。",
+
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.title": "石熊形态",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.description": "五灵威力，变身：[brown]石熊形态[/brown]。",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.smartDescription": "五灵威力，变身：[brown]石熊形态[/brown]。",
+
+    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.title": "灵源印记",
+    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.description": "猪猪凯体内刻画形成的五灵之力。",
+    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.smartDescription": "拥有[blue]{Amount}[/blue]层灵源印记。"
 }
