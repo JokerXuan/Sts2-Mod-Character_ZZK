@@ -41,5 +41,9 @@
 
     "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.title": "Spirit Source Mark",
     "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.description": "Five-Spirit power engraved within Pig Kai.",
-    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.smartDescription": "Has [blue]{Amount}[/blue] Spirit Source Mark."
+    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.smartDescription": "Has [blue]{Amount}[/blue] Spirit Source Mark.",
+
+    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.title": "Spiral Core",
+    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.description": "Spiral Core count.",
+    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.smartDescription": "Has [blue]{Amount}[/blue] Spiral Core."
 }

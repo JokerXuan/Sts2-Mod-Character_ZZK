@@ -5,27 +5,25 @@ using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.Cards;
-using MegaCrit.Sts2.Core.ValueProps;
 using STS2RitsuLib.Cards.DynamicVars;
 using STS2RitsuLib.Interop.AutoRegistration;
 using STS2RitsuLib.Scaffolding.Content;
 using Character_ZZK.Scripts.Characters;
 using Character_ZZK.Scripts.Powers.Buffs;
 
-namespace Character_ZZK.Scripts.Cards.Common;
+namespace Character_ZZK.Scripts.Cards.Rare;
 
 /// <summary>
-/// 灵印击。
-/// 第一张用于测试“灵源印记”的普通攻击牌。
-/// 当前阶段只负责刻印，不负责消耗印记。
+/// 旋灵核激活。
+/// 稀有能力牌：提高之后每次刻印获得的灵源印记数量。
 /// </summary>
 [RegisterCard(typeof(ZzkCardPool))]
-public class SpiritSealStrike : ModCardTemplate
+public class ActivateSpiralSpiritCore : ModCardTemplate
 {
-    private const int BaseEnergyCost = 1;
-    private const CardType CardKind = CardType.Attack;
-    private const CardRarity CardRareLevel = CardRarity.Common;
-    private const TargetType CardTarget = TargetType.AnyEnemy;
+    private const int BaseEnergyCost = 3;
+    private const CardType CardKind = CardType.Power;
+    private const CardRarity CardRareLevel = CardRarity.Rare;
+    private const TargetType CardTarget = TargetType.Self;
     private const bool ShowInCardLibrary = true;
 
     public override CardAssetProfile AssetProfile => new(
@@ -33,33 +31,27 @@ public class SpiritSealStrike : ModCardTemplate
     );
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DamageVar(5, ValueProp.Move),
-        ModCardVars.Int("Mark", 1)
+        ModCardVars.Int("Core", 1)
     ];
 
-    public SpiritSealStrike()
+    public ActivateSpiralSpiritCore()
         : base(BaseEnergyCost, CardKind, CardRareLevel, CardTarget, ShowInCardLibrary)
     {
     }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
-            .FromCard(this, cardPlay)
-            .Targeting(cardPlay.Target!)
-            .Execute(choiceContext);
-
-        await FiveSpiritMarkPower.ApplyMark(
+        await PowerCmd.Apply<SpiralSpiritCorePower>(
             choiceContext,
             base.Owner.Creature,
-            (int)DynamicVars["Mark"].BaseValue,
+            DynamicVars["Core"].BaseValue,
+            base.Owner.Creature,
             this
         );
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Damage.UpgradeValueBy(3);
-        DynamicVars["Mark"].UpgradeValueBy(1);
+        DynamicVars["Core"].UpgradeValueBy(1);
     }
 }

@@ -9,7 +9,7 @@
   "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.description": "Five-Spirit Power, transform into [gold]Iron Tiger Form[/gold].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
 
   "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.title": "Spirit Seal Strike",
-  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.description": "Deal {Damage:diff()} damage. Mark 1.",
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.description": "Deal {Damage:diff()} damage. Mark {Mark:diff()}.",
 
   "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.title": "Wood Ape Awakening",
   "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.description": "Five-Spirit Power, transform into [green]Wood Ape Form[/green].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
@@ -21,5 +21,8 @@
   "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.description": "Five-Spirit Power, transform into [red]Fire Crane Form[/red].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
 
   "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.title": "Stone Bear Awakening",
-  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "Five-Spirit Power, transform into [orange]Stone Bear Form[/orange].Spend [blue]2[/blue] Spirit Source Mark and resonate."
+  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "Five-Spirit Power, transform into [orange]Stone Bear Form[/orange].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
+
+  "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.title": "Spiral Core Activation",
+  "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.description": "Whenever you Mark, Mark {Core:diff()} additional Spirit Source Mark."
 }

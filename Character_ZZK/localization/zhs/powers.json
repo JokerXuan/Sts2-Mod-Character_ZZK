@@ -41,5 +41,9 @@
 
     "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.title": "灵源印记",
     "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.description": "猪猪凯体内刻画形成的五灵之力。",
-    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.smartDescription": "拥有[blue]{Amount}[/blue]层灵源印记。"
+    "CHARACTER_ZZK_POWER_FIVE_SPIRIT_MARK_POWER.smartDescription": "拥有[blue]{Amount}[/blue]层灵源印记。",
+
+    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.title": "旋灵核",
+    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.description": "旋灵核层数。",
+    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.smartDescription": "拥有[blue]{Amount}[/blue]层旋灵核。"
 }

@@ -46,10 +46,13 @@ public class FiveSpiritMarkPower : ModPowerTemplate
             return;
         }
 
+        int bonusAmount = SpiralSpiritCorePower.GetBonusMarkAmount(ownerCreature);
+        int finalAmount = amount + bonusAmount;
+
         await PowerCmd.Apply<FiveSpiritMarkPower>(
             choiceContext,
             ownerCreature,
-            amount,
+            finalAmount,
             ownerCreature,
             cardSource
         );

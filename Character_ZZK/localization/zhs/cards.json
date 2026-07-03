@@ -21,5 +21,8 @@
   "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "五灵威力变身：[orange]石熊形态[/orange]，消耗[blue]2[/blue]层灵源印记，共鸣。",
 
   "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.title": "灵印击",
-  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.description": "造成{Damage:diff()}点伤害。刻印1"
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.description": "造成{Damage:diff()}点伤害。刻印{Mark:diff()}。",
+
+  "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.title": "旋灵核激活",
+  "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.description": "每当你刻印时，额外刻印{Core:diff()}层灵源印记。"
 }

@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using Character_ZZK.Scripts.Powers.Buffs;
+using MegaCrit.Sts2.Core.Entities.Cards;
 
 namespace Character_ZZK.Scripts.Mechanics;
 
@@ -195,7 +196,8 @@ public static class FiveSpiritResonance
     public static async Task TriggerFireCrane(
         PlayerChoiceContext choiceContext,
         Player player,
-        CardModel cardSource
+        CardModel cardSource,
+        CardPlay cardPlay
     )
     {
         int damagePerHit = await TryStartResonance<FireCraneResonanceCountPower>(
@@ -223,26 +225,13 @@ public static class FiveSpiritResonance
             return;
         }
 
-        for (int i = 0; i < hitTimes; i++)
-        {
-            var enemies = combatState.HittableEnemies
-                .Where(enemy => enemy.IsAlive)
-                .ToList();
-
-            if (enemies.Count == 0)
-            {
-                return;
-            }
-
-            await CreatureCmd.Damage(
-                choiceContext,
-                enemies,
-                damagePerHit,
-                ValueProp.Unpowered,
-                player.Creature,
-                cardSource
-            );
-        }
+        await DamageCmd.Attack(damagePerHit)
+            .FromCard(cardSource, cardPlay)
+            .TargetingAllOpponents(combatState)
+            .WithHitCount(hitTimes)
+            .Unpowered()
+            .WithNoAttackerAnim()
+            .Execute(choiceContext);
     }
 
     /// <summary>

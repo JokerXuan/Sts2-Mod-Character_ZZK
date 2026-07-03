@@ -64,7 +64,8 @@ public class FireCraneAwakening : ModCardTemplate
         await FiveSpiritResonance.TriggerFireCrane(
             choiceContext,
             base.Owner,
-            this
+            this,
+            cardPlay
         );
     }
 
