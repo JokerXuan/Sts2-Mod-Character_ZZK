@@ -1,12 +1,13 @@
 {
-  "CHARACTER_ZZK_CARD_PIG_STRIKE.title": "Pig Strike",
+  "CHARACTER_ZZK_CARD_PIG_STRIKE.title": "Strike",
   "CHARACTER_ZZK_CARD_PIG_STRIKE.description": "Deal {Damage:diff()} damage.",
 
-  "CHARACTER_ZZK_CARD_PIG_GUARD.title": "Pig Guard",
+  "CHARACTER_ZZK_CARD_PIG_GUARD.title": "Guard",
   "CHARACTER_ZZK_CARD_PIG_GUARD.description": "Gain {Block:diff()} Block.",
 
   "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.title": "Mutual Generation",
   "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.description": "Choose a Five-Spirit Form and switch to it. Does not trigger Resonance.",
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.selectionScreenPrompt": "Choose a Five-Spirit Form.",
 
   "CHARACTER_ZZK_CARD_PIGGY_DREAM.title": "Piggy's Dream",
   "CHARACTER_ZZK_CARD_PIGGY_DREAM.description": "Increase your current Form Resonance count by {Count:diff()}.",
@@ -60,7 +61,7 @@
   "CHARACTER_ZZK_CARD_DAIDAI_INVENTION.description": "At the start of each turn, Mark {Mark:diff()}.",
 
   "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.title": "Cone Ice Cream",
-  "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.description": "Mark {Mark:diff()}. Draw {Draw:diff()} card. Exhaust.",
+  "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.description": "Mark {Mark:diff()}. Draw {Draw:diff()} card.",
 
   "CHARACTER_ZZK_CARD_MUDDLED_TIME.title": "Muddled Time",
   "CHARACTER_ZZK_CARD_MUDDLED_TIME.description": "Whenever a card is generated, Mark {Mark:diff()} and reduce that card's cost by {Reduction:diff()}.",

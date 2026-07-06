@@ -1,12 +1,13 @@
 {
-  "CHARACTER_ZZK_CARD_PIG_STRIKE.title": "猪猪打击",
+  "CHARACTER_ZZK_CARD_PIG_STRIKE.title": "打击",
   "CHARACTER_ZZK_CARD_PIG_STRIKE.description": "造成{Damage:diff()}点伤害",
 
-  "CHARACTER_ZZK_CARD_PIG_GUARD.title": "猪猪防御",
+  "CHARACTER_ZZK_CARD_PIG_GUARD.title": "防御",
   "CHARACTER_ZZK_CARD_PIG_GUARD.description": "获得{Block:diff()}点格挡",
 
   "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.title": "五行相生",
   "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.description": "选择一种五灵形态，切换至该形态。不触发共鸣。",
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.selectionScreenPrompt": "选择一种五灵形态。",
 
   "CHARACTER_ZZK_CARD_PIGGY_DREAM.title": "猪猪一梦",
   "CHARACTER_ZZK_CARD_PIGGY_DREAM.description": "当前形态共鸣次数增加{Count:diff()}。",
@@ -60,7 +61,7 @@
   "CHARACTER_ZZK_CARD_DAIDAI_INVENTION.description": "每回合开始时，刻印{Mark:diff()}。",
 
   "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.title": "甜筒冰淇淋",
-  "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.description": "刻印{Mark:diff()}。抽{Draw:diff()}张牌。消耗。",
+  "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.description": "刻印{Mark:diff()}。抽{Draw:diff()}张牌。",
 
   "CHARACTER_ZZK_CARD_MUDDLED_TIME.title": "迷糊时间",
   "CHARACTER_ZZK_CARD_MUDDLED_TIME.description": "每当生成一张牌时，刻印{Mark:diff()}，该牌费用减少{Reduction:diff()}。",

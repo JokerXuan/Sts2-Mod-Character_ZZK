@@ -39,7 +39,7 @@ public class DarkSpiritInvasion : ModCardTemplate
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DamageVar(7, ValueProp.Move),
-        ModCardVars.Int("Debuff", 1)
+        ModCardVars.Int("Debuff", 2)
     ];
 
     public DarkSpiritInvasion()
