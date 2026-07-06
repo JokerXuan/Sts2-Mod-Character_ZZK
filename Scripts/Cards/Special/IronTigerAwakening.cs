@@ -87,7 +87,11 @@ public class IronTigerAwakening : ModCardTemplate
     /// 将一张“铁虎觉醒”生成到指定玩家手牌。
     /// 这个方法供“五灵锁”等遗物调用。
     /// </summary>
-    public static async Task CreateInHand(Player owner, ICombatState combatState)
+    public static async Task CreateInHand(
+        Player owner,
+        PlayerChoiceContext choiceContext,
+        ICombatState combatState
+    )
     {
         if (!combatState.IsLiveCombat())
         {
@@ -95,6 +99,13 @@ public class IronTigerAwakening : ModCardTemplate
         }
 
         IronTigerAwakening card = combatState.CreateCard<IronTigerAwakening>(owner);
+
+        await GeneratedCardEffectUtils.ApplyOnGeneratedCardEffects(
+            choiceContext,
+            owner,
+            card,
+            null
+        );
 
         await CardPileCmd.AddGeneratedCardToCombat(
             card,

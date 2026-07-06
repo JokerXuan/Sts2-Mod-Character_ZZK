@@ -21,7 +21,7 @@ namespace Character_ZZK.Scripts.Relics.Starter;
 [RegisterCharacterStarterRelic(typeof(PigKaiCharacter))]
 public class FiveSpiritLock : ModRelicTemplate
 {
-    private const int StartingMarkAmount = 99;
+    private const int StartingMarkAmount = 2;
 
     public override RelicRarity Rarity => RelicRarity.Starter;
 
@@ -62,6 +62,15 @@ public class FiveSpiritLock : ModRelicTemplate
             );
         }
 
+        bool reducedAwakeningCost =
+            FiveSpiritFormUtils.ReduceAwakeningCostsInHand(base.Owner);
+
+        if (reducedAwakeningCost && !hasFlashed)
+        {
+            Flash();
+            hasFlashed = true;
+        }
+
         if (FiveSpiritFormUtils.HasAnyAwakeningInHand(base.Owner))
         {
             return;
@@ -82,6 +91,6 @@ public class FiveSpiritLock : ModRelicTemplate
             Flash();
         }
 
-        await selected.CreateInHand(base.Owner, combatState);
+        await selected.CreateInHand(base.Owner, choiceContext, combatState);
     }
 }

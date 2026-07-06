@@ -1,23 +1,23 @@
 {
     "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.title": "铁虎形态",
-    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.description": "共鸣：本回合获得[blue]X[/blue]点力量。X为本场战斗已触发的铁虎共鸣次数。",
-    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.smartDescription": "共鸣：本回合获得[blue]X[/blue]点力量。X为本场战斗已触发的铁虎共鸣次数。",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.description": "共鸣：消耗[blue]2[/blue]层灵源印记，本回合获得[blue]X[/blue]点力量。X为本场战斗已触发的铁虎共鸣次数。",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.smartDescription": "共鸣：消耗[blue]2[/blue]层灵源印记，本回合获得[blue]X[/blue]点力量。X为本场战斗已触发的铁虎共鸣次数。",
 
     "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.title": "木猿形态",
-    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.description": "共鸣：本局永久获得[blue]1[/blue]点能量上限，并抽[blue]1[/blue]张牌。",
-    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.smartDescription": "共鸣：获得[blue]1[/blue]点能量上限，并抽[blue]1[/blue]张牌。",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.description": "共鸣：消耗[blue]2[/blue]层灵源印记，本局永久获得[blue]1[/blue]点能量上限，并抽[blue]1[/blue]张牌。",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.smartDescription": "共鸣：消耗[blue]2[/blue]层灵源印记，获得[blue]1[/blue]点能量上限，并抽[blue]1[/blue]张牌。",
 
     "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.title": "冰鹿形态",
-    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.description": "共鸣：所有敌人在本回合失去[blue]X[/blue]点力量。X为本场战斗已触发的冰鹿共鸣次数。",
-    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.smartDescription": "共鸣：所有敌人在本回合失去[blue]X[/blue]点力量。X为本场战斗已触发的冰鹿共鸣次数。",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.description": "共鸣：消耗[blue]2[/blue]层灵源印记，所有敌人在本回合失去[blue]X[/blue]点力量。随机将一张牌加入手牌，其获得虚无和消耗。X为本场战斗已触发的冰鹿共鸣次数。",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.smartDescription": "共鸣：消耗[blue]2[/blue]层灵源印记，所有敌人在本回合失去[blue]X[/blue]点力量。随机将一张牌加入手牌，其获得虚无和消耗。X为本场战斗已触发的冰鹿共鸣次数。",
 
     "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.title": "火鹤形态",
-    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.description": "共鸣：对所有敌人造成[blue]X[/blue]点伤害，重复等同于当前能量的次数。X为本场战斗已触发的火鹤共鸣次数。",
-    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.smartDescription": "共鸣：对所有敌人造成[blue]X[/blue]点伤害，重复等同于当前能量的次数。X为本场战斗已触发的火鹤共鸣次数。",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.description": "共鸣：消耗[blue]2[/blue]层灵源印记，对所有敌人造成[blue]X[/blue]点伤害，重复等同于当前能量的次数。X为本场战斗已触发的火鹤共鸣次数。",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.smartDescription": "共鸣：消耗[blue]2[/blue]层灵源印记，对所有敌人造成[blue]X[/blue]点伤害，重复等同于当前能量的次数。X为本场战斗已触发的火鹤共鸣次数。",
 
     "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.title": "石熊形态",
-    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.description": "共鸣：获得[blue]X[/blue]层覆甲。X为本场战斗已触发的石熊共鸣次数。",
-    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.smartDescription": "共鸣：获得[blue]X[/blue]层覆甲。X为本场战斗已触发的石熊共鸣次数。",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.description": "共鸣：消耗[blue]2[/blue]层灵源印记，获得[blue]X[/blue]层覆甲。X为本场战斗已触发的石熊共鸣次数。",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.smartDescription": "共鸣：消耗[blue]2[/blue]层灵源印记，获得[blue]X[/blue]层覆甲。X为本场战斗已触发的石熊共鸣次数。",
 
     "CHARACTER_ZZK_POWER_IRON_TIGER_RESONANCE_COUNT_POWER.title": "铁虎共鸣",
     "CHARACTER_ZZK_POWER_IRON_TIGER_RESONANCE_COUNT_POWER.description": "本场战斗中已触发的铁虎共鸣次数。",
@@ -45,5 +45,17 @@
 
     "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.title": "旋灵核",
     "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.description": "旋灵核层数。",
-    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.smartDescription": "拥有[blue]{Amount}[/blue]层旋灵核。"
+    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.smartDescription": "拥有[blue]{Amount}[/blue]层旋灵核。",
+
+    "CHARACTER_ZZK_POWER_DAIDAI_INVENTION_POWER.title": "呆呆发明",
+    "CHARACTER_ZZK_POWER_DAIDAI_INVENTION_POWER.description": "每回合开始时，刻印等同于呆呆发明层数的灵源印记。",
+    "CHARACTER_ZZK_POWER_DAIDAI_INVENTION_POWER.smartDescription": "每回合开始时，刻印[blue]{Amount}[/blue]。",
+
+    "CHARACTER_ZZK_POWER_MUDDLED_TIME_POWER.title": "迷糊时间",
+    "CHARACTER_ZZK_POWER_MUDDLED_TIME_POWER.description": "每当生成一张牌时，刻印，并使该牌费用减少。",
+    "CHARACTER_ZZK_POWER_MUDDLED_TIME_POWER.smartDescription": "每当生成一张牌时，刻印，并使该牌费用减少。",
+
+    "CHARACTER_ZZK_POWER_HEROIC_INHERITANCE_POWER.title": "英雄继承",
+    "CHARACTER_ZZK_POWER_HEROIC_INHERITANCE_POWER.description": "本回合接下来的时间中，每打出一张牌，刻印等同于英雄继承层数的灵源印记。",
+    "CHARACTER_ZZK_POWER_HEROIC_INHERITANCE_POWER.smartDescription": "本回合每打出一张牌，刻印[blue]{Amount}[/blue]。"
 }

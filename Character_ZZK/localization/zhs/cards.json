@@ -5,24 +5,69 @@
   "CHARACTER_ZZK_CARD_PIG_GUARD.title": "猪猪防御",
   "CHARACTER_ZZK_CARD_PIG_GUARD.description": "获得{Block:diff()}点格挡",
 
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.title": "五行相生",
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.description": "选择一种五灵形态，切换至该形态。不触发共鸣。",
+
+  "CHARACTER_ZZK_CARD_PIGGY_DREAM.title": "猪猪一梦",
+  "CHARACTER_ZZK_CARD_PIGGY_DREAM.description": "当前形态共鸣次数增加{Count:diff()}。",
+
   "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.title": "铁虎觉醒",
-  "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.description": "五灵威力变身：[gold]铁虎形态[/gold]，消耗[blue]2[/blue]层灵源印记，共鸣。",
+  "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.description": "五灵威力变身：[gold]铁虎形态[/gold]，共鸣。",
 
   "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.title": "木猿觉醒",
-  "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.description": "五灵威力变身：[green]木猿形态[/green]，消耗[blue]2[/blue]层灵源印记，共鸣。",
+  "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.description": "五灵威力变身：[green]木猿形态[/green]，共鸣。",
 
   "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.title": "冰鹿觉醒",
-  "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.description": "五灵威力变身：[blue]冰鹿形态[/blue]，消耗[blue]2[/blue]层灵源印记，共鸣。",
+  "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.description": "五灵威力变身：[blue]冰鹿形态[/blue]，共鸣。",
 
   "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.title": "火鹤觉醒",
-  "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.description": "五灵威力变身：[red]火鹤形态[/red]，消耗[blue]2[/blue]层灵源印记，共鸣。",
+  "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.description": "五灵威力变身：[red]火鹤形态[/red]，共鸣。",
 
   "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.title": "石熊觉醒",
-  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "五灵威力变身：[orange]石熊形态[/orange]，消耗[blue]2[/blue]层灵源印记，共鸣。",
+  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "五灵威力变身：[orange]石熊形态[/orange]，共鸣。",
 
-  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.title": "灵印击",
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.title": "灵印打击",
   "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.description": "造成{Damage:diff()}点伤害。刻印{Mark:diff()}。",
 
+  "CHARACTER_ZZK_CARD_SPIRIT_SOURCE_CHARGE.title": "灵源蓄势",
+  "CHARACTER_ZZK_CARD_SPIRIT_SOURCE_CHARGE.description": "刻印{Mark:diff()}。",
+
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_GUARD.title": "灵印格挡",
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_GUARD.description": "获得{Block:diff()}点格挡。刻印{Mark:diff()}。",
+
+  "CHARACTER_ZZK_CARD_UNEXPECTED_RESULT.title": "意外成果",
+  "CHARACTER_ZZK_CARD_UNEXPECTED_RESULT.description": "随机消耗一张手牌。刻印{Mark:diff()}。",
+
+  "CHARACTER_ZZK_CARD_COMBINED_STRIKE.title": "合击",
+  "CHARACTER_ZZK_CARD_COMBINED_STRIKE.description": "造成{Resonance:diff()}点伤害。刻印{Mark:diff()}。共鸣次数越多，合击威力越强。",
+
+  "CHARACTER_ZZK_CARD_SOURCE_ENERGY_IMPACT.title": "源能冲击",
+  "CHARACTER_ZZK_CARD_SOURCE_ENERGY_IMPACT.description": "造成{Damage:diff()}+灵源印记层数的伤害。",
+
+  "CHARACTER_ZZK_CARD_HEROIC_INHERITANCE.title": "英雄继承",
+  "CHARACTER_ZZK_CARD_HEROIC_INHERITANCE.description": "在本回合接下来的时间中，每打出一张牌，刻印{Power:diff()}。",
+
+  "CHARACTER_ZZK_CARD_FIVE_SPIRIT_RESONANCE_SKILL.title": "五灵共鸣",
+  "CHARACTER_ZZK_CARD_FIVE_SPIRIT_RESONANCE_SKILL.description": "{IfUpgraded:show:优先触发当前形态的共鸣一次。|触发随机形态的共鸣一次。}",
+
+  "CHARACTER_ZZK_CARD_ENERGY_RECYCLE.title": "能量回收",
+  "CHARACTER_ZZK_CARD_ENERGY_RECYCLE.description": "抽{Draw:diff()}张牌。每有[blue]10[/blue]层灵源印记，多抽[blue]1[/blue]张牌。",
+
+  "CHARACTER_ZZK_CARD_DARK_SPIRIT_INVASION.title": "暗灵入侵",
+  "CHARACTER_ZZK_CARD_DARK_SPIRIT_INVASION.description": "对所有敌人造成{Damage:diff()}点伤害。如果你拥有至少[blue]10[/blue]层灵源印记，对所有敌人施加{Debuff:diff()}层易伤和虚弱。",
+
+  "CHARACTER_ZZK_CARD_DAIDAI_INVENTION.title": "呆呆发明",
+  "CHARACTER_ZZK_CARD_DAIDAI_INVENTION.description": "每回合开始时，刻印{Mark:diff()}。",
+
+  "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.title": "甜筒冰淇淋",
+  "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.description": "刻印{Mark:diff()}。抽{Draw:diff()}张牌。消耗。",
+
+  "CHARACTER_ZZK_CARD_MUDDLED_TIME.title": "迷糊时间",
+  "CHARACTER_ZZK_CARD_MUDDLED_TIME.description": "每当生成一张牌时，刻印{Mark:diff()}，该牌费用减少{Reduction:diff()}。",
+
   "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.title": "旋灵核激活",
-  "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.description": "每当你刻印时，额外刻印{Core:diff()}层灵源印记。"
+  "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.description": "每当你刻印时，额外刻印{Core:diff()}层灵源印记。",
+
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_CYCLE.title": "五行轮转",
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_CYCLE.description": "当前形态共鸣次数增加{Count:diff()}。触发所有形态的共鸣一次。"
 }

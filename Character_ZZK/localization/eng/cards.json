@@ -5,24 +5,69 @@
   "CHARACTER_ZZK_CARD_PIG_GUARD.title": "Pig Guard",
   "CHARACTER_ZZK_CARD_PIG_GUARD.description": "Gain {Block:diff()} Block.",
 
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.title": "Mutual Generation",
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_MUTUAL_GENERATION.description": "Choose a Five-Spirit Form and switch to it. Does not trigger Resonance.",
+
+  "CHARACTER_ZZK_CARD_PIGGY_DREAM.title": "Piggy's Dream",
+  "CHARACTER_ZZK_CARD_PIGGY_DREAM.description": "Increase your current Form Resonance count by {Count:diff()}.",
+
   "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.title": "Iron Tiger Awakening",
-  "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.description": "Five-Spirit Power, transform into [gold]Iron Tiger Form[/gold].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
+  "CHARACTER_ZZK_CARD_IRON_TIGER_AWAKENING.description": "Five-Spirit Power, transform into [gold]Iron Tiger Form[/gold]. Resonate.",
 
   "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.title": "Spirit Seal Strike",
   "CHARACTER_ZZK_CARD_SPIRIT_SEAL_STRIKE.description": "Deal {Damage:diff()} damage. Mark {Mark:diff()}.",
 
+  "CHARACTER_ZZK_CARD_SPIRIT_SOURCE_CHARGE.title": "Spirit Source Charge",
+  "CHARACTER_ZZK_CARD_SPIRIT_SOURCE_CHARGE.description": "Mark {Mark:diff()}.",
+
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_GUARD.title": "Spirit Seal Guard",
+  "CHARACTER_ZZK_CARD_SPIRIT_SEAL_GUARD.description": "Gain {Block:diff()} Block. Mark {Mark:diff()}.",
+
+  "CHARACTER_ZZK_CARD_UNEXPECTED_RESULT.title": "Unexpected Result",
+  "CHARACTER_ZZK_CARD_UNEXPECTED_RESULT.description": "Exhaust a random card in your hand. Mark {Mark:diff()}.",
+
+  "CHARACTER_ZZK_CARD_COMBINED_STRIKE.title": "Combined Strike",
+  "CHARACTER_ZZK_CARD_COMBINED_STRIKE.description": "Deal {Resonance:diff()} damage. Mark {Mark:diff()}. More Resonances make this stronger.",
+
+  "CHARACTER_ZZK_CARD_SOURCE_ENERGY_IMPACT.title": "Source Energy Impact",
+  "CHARACTER_ZZK_CARD_SOURCE_ENERGY_IMPACT.description": "Deal {Damage:diff()} plus your Spirit Source Mark as damage.",
+
   "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.title": "Wood Ape Awakening",
-  "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.description": "Five-Spirit Power, transform into [green]Wood Ape Form[/green].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
+  "CHARACTER_ZZK_CARD_WOOD_APE_AWAKENING.description": "Five-Spirit Power, transform into [green]Wood Ape Form[/green]. Resonate.",
 
   "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.title": "Ice Deer Awakening",
-  "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.description": "Five-Spirit Power, transform into [blue]Ice Deer Form[/blue].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
+  "CHARACTER_ZZK_CARD_ICE_DEER_AWAKENING.description": "Five-Spirit Power, transform into [blue]Ice Deer Form[/blue]. Resonate.",
 
   "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.title": "Fire Crane Awakening",
-  "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.description": "Five-Spirit Power, transform into [red]Fire Crane Form[/red].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
+  "CHARACTER_ZZK_CARD_FIRE_CRANE_AWAKENING.description": "Five-Spirit Power, transform into [red]Fire Crane Form[/red]. Resonate.",
 
   "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.title": "Stone Bear Awakening",
-  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "Five-Spirit Power, transform into [orange]Stone Bear Form[/orange].Spend [blue]2[/blue] Spirit Source Mark and resonate.",
+  "CHARACTER_ZZK_CARD_STONE_BEAR_AWAKENING.description": "Five-Spirit Power, transform into [orange]Stone Bear Form[/orange]. Resonate.",
 
   "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.title": "Spiral Core Activation",
-  "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.description": "Whenever you Mark, Mark {Core:diff()} additional Spirit Source Mark."
+  "CHARACTER_ZZK_CARD_ACTIVATE_SPIRAL_SPIRIT_CORE.description": "Whenever you Mark, Mark {Core:diff()} additional Spirit Source Mark.",
+
+  "CHARACTER_ZZK_CARD_HEROIC_INHERITANCE.title": "Heroic Inheritance",
+  "CHARACTER_ZZK_CARD_HEROIC_INHERITANCE.description": "For the rest of this turn, whenever you play a card, Mark {Power:diff()}.",
+
+  "CHARACTER_ZZK_CARD_FIVE_SPIRIT_RESONANCE_SKILL.title": "Five-Spirit Resonance",
+  "CHARACTER_ZZK_CARD_FIVE_SPIRIT_RESONANCE_SKILL.description": "{IfUpgraded:show:Prioritize triggering your current Form Resonance once.|Trigger a random Form Resonance once.}",
+
+  "CHARACTER_ZZK_CARD_ENERGY_RECYCLE.title": "Energy Recycle",
+  "CHARACTER_ZZK_CARD_ENERGY_RECYCLE.description": "Draw {Draw:diff()} card. Draw [blue]1[/blue] additional card for every [blue]10[/blue] Spirit Source Mark you have.",
+
+  "CHARACTER_ZZK_CARD_DAIDAI_INVENTION.title": "Daidai's Invention",
+  "CHARACTER_ZZK_CARD_DAIDAI_INVENTION.description": "At the start of each turn, Mark {Mark:diff()}.",
+
+  "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.title": "Cone Ice Cream",
+  "CHARACTER_ZZK_CARD_CONE_ICE_CREAM.description": "Mark {Mark:diff()}. Draw {Draw:diff()} card. Exhaust.",
+
+  "CHARACTER_ZZK_CARD_MUDDLED_TIME.title": "Muddled Time",
+  "CHARACTER_ZZK_CARD_MUDDLED_TIME.description": "Whenever a card is generated, Mark {Mark:diff()} and reduce that card's cost by {Reduction:diff()}.",
+
+  "CHARACTER_ZZK_CARD_DARK_SPIRIT_INVASION.title": "Dark Spirit Invasion",
+  "CHARACTER_ZZK_CARD_DARK_SPIRIT_INVASION.description": "Deal {Damage:diff()} damage to all enemies. If you have at least [blue]10[/blue] Spirit Source Mark, apply {Debuff:diff()} Vulnerable and Weak to all enemies.",
+
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_CYCLE.title": "Five Elements Cycle",
+  "CHARACTER_ZZK_CARD_FIVE_ELEMENTS_CYCLE.description": "Increase your current Form Resonance count by {Count:diff()}. Trigger every Form Resonance once."
 }

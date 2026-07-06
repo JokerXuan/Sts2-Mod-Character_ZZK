@@ -72,7 +72,11 @@ public class StoneBearAwakening : ModCardTemplate
     {
     }
 
-    public static async Task CreateInHand(Player owner, ICombatState combatState)
+    public static async Task CreateInHand(
+        Player owner,
+        PlayerChoiceContext choiceContext,
+        ICombatState combatState
+    )
     {
         if (!combatState.IsLiveCombat())
         {
@@ -80,6 +84,13 @@ public class StoneBearAwakening : ModCardTemplate
         }
 
         StoneBearAwakening card = combatState.CreateCard<StoneBearAwakening>(owner);
+
+        await GeneratedCardEffectUtils.ApplyOnGeneratedCardEffects(
+            choiceContext,
+            owner,
+            card,
+            null
+        );
 
         await CardPileCmd.AddGeneratedCardToCombat(
             card,

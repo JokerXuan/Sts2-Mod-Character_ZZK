@@ -1,23 +1,23 @@
 {
     "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.title": "Iron Tiger Form",
-    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.description": "Resonance: Gain [blue]X[/blue] Strength this turn. X is the number of Iron Tiger Resonances triggered this combat.",
-    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.smartDescription": "Resonance: Gain [blue]X[/blue] Strength this turn. X is the number of Iron Tiger Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.description": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. Gain [blue]X[/blue] Strength this turn. X is the number of Iron Tiger Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_IRON_TIGER_FORM_POWER.smartDescription": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. Gain [blue]X[/blue] Strength this turn. X is the number of Iron Tiger Resonances triggered this combat.",
 
     "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.title": "Wood Ape Form",
-    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.description": "Resonance: Permanently gain [blue]1[/blue] Max Energy this run and draw [blue]1[/blue] card.",
-    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.smartDescription": "Resonance: Gain [blue]1[/blue] Max Energy and draw [blue]1[/blue] card.",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.description": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. Permanently gain [blue]1[/blue] Max Energy this run and draw [blue]1[/blue] card.",
+    "CHARACTER_ZZK_POWER_WOOD_APE_FORM_POWER.smartDescription": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. Gain [blue]1[/blue] Max Energy and draw [blue]1[/blue] card.",
 
     "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.title": "Ice Deer Form",
-    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.description": "Resonance: All enemies lose [blue]X[/blue] Strength this turn. X is the number of Ice Deer Resonances triggered this combat.",
-    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.smartDescription": "Resonance: All enemies lose [blue]X[/blue] Strength this turn. X is the number of Ice Deer Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.description": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. All enemies lose [blue]X[/blue] Strength this turn. Add a random Ethereal, Exhaust card to your hand. X is the number of Ice Deer Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_ICE_DEER_FORM_POWER.smartDescription": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. All enemies lose [blue]X[/blue] Strength this turn. Add a random Ethereal, Exhaust card to your hand. X is the number of Ice Deer Resonances triggered this combat.",
 
     "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.title": "Fire Crane Form",
-    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.description": "Resonance: Deal [blue]X[/blue] damage to all enemies a number of times equal to your current Energy. X is the number of Fire Crane Resonances triggered this combat.",
-    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.smartDescription": "Resonance: Deal [blue]X[/blue] damage to all enemies a number of times equal to your current Energy. X is the number of Fire Crane Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.description": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. Deal [blue]X[/blue] damage to all enemies a number of times equal to your current Energy. X is the number of Fire Crane Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_FIRE_CRANE_FORM_POWER.smartDescription": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. Deal [blue]X[/blue] damage to all enemies a number of times equal to your current Energy. X is the number of Fire Crane Resonances triggered this combat.",
 
     "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.title": "Stone Bear Form",
-    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.description": "Resonance: Gain [blue]X[/blue] Plating. X is the number of Stone Bear Resonances triggered this combat.",
-    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.smartDescription": "Resonance: Gain [blue]X[/blue] Plating. X is the number of Stone Bear Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.description": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. Gain [blue]X[/blue] Plating. X is the number of Stone Bear Resonances triggered this combat.",
+    "CHARACTER_ZZK_POWER_STONE_BEAR_FORM_POWER.smartDescription": "Resonance: Spend [blue]2[/blue] Spirit Source Mark. Gain [blue]X[/blue] Plating. X is the number of Stone Bear Resonances triggered this combat.",
 
     "CHARACTER_ZZK_POWER_IRON_TIGER_RESONANCE_COUNT_POWER.title": "Iron Tiger Resonance",
     "CHARACTER_ZZK_POWER_IRON_TIGER_RESONANCE_COUNT_POWER.description": "Tracks the number of Iron Tiger Resonances triggered this combat.",
@@ -45,5 +45,17 @@
 
     "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.title": "Spiral Core",
     "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.description": "Spiral Core count.",
-    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.smartDescription": "Has [blue]{Amount}[/blue] Spiral Core."
+    "CHARACTER_ZZK_POWER_SPIRAL_SPIRIT_CORE_POWER.smartDescription": "Has [blue]{Amount}[/blue] Spiral Core.",
+
+    "CHARACTER_ZZK_POWER_DAIDAI_INVENTION_POWER.title": "Daidai's Invention",
+    "CHARACTER_ZZK_POWER_DAIDAI_INVENTION_POWER.description": "At the start of each turn, Mark equal to your Daidai's Invention.",
+    "CHARACTER_ZZK_POWER_DAIDAI_INVENTION_POWER.smartDescription": "At the start of each turn, Mark [blue]{Amount}[/blue].",
+
+    "CHARACTER_ZZK_POWER_MUDDLED_TIME_POWER.title": "Muddled Time",
+    "CHARACTER_ZZK_POWER_MUDDLED_TIME_POWER.description": "Whenever a card is generated, Mark and reduce that card's cost.",
+    "CHARACTER_ZZK_POWER_MUDDLED_TIME_POWER.smartDescription": "Whenever a card is generated, Mark and reduce that card's cost.",
+
+    "CHARACTER_ZZK_POWER_HEROIC_INHERITANCE_POWER.title": "Heroic Inheritance",
+    "CHARACTER_ZZK_POWER_HEROIC_INHERITANCE_POWER.description": "For the rest of this turn, whenever you play a card, Mark equal to your Heroic Inheritance.",
+    "CHARACTER_ZZK_POWER_HEROIC_INHERITANCE_POWER.smartDescription": "Whenever you play a card this turn, Mark [blue]{Amount}[/blue]."
 }

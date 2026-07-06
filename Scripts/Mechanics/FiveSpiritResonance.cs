@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MegaCrit.Sts2.Core.Combat;
@@ -9,7 +11,10 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using Character_ZZK.Scripts.Powers.Buffs;
+using Character_ZZK.Scripts.Powers;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using System.Collections.Generic;
+using MegaCrit.Sts2.Core.Models.Cards;
 
 namespace Character_ZZK.Scripts.Mechanics;
 
@@ -62,6 +67,290 @@ public static class FiveSpiritResonance
         );
 
         return nextCount;
+    }
+
+    /// <summary>
+    /// 触发随机一种形态的共鸣。
+    /// 不切换形态，只执行该形态的共鸣效果。
+    /// </summary>
+    public static async Task TriggerRandomFormResonance(
+        PlayerChoiceContext choiceContext,
+        Player player,
+        CardModel cardSource,
+        CardPlay cardPlay
+    )
+    {
+        ICombatState? combatState = player.Creature.CombatState;
+
+        if (combatState == null || !combatState.IsLiveCombat())
+        {
+            return;
+        }
+
+        List<Func<Task>> options = [
+            () => TriggerIronTiger(choiceContext, player, cardSource),
+            () => TriggerWoodApe(choiceContext, player, cardSource),
+            () => TriggerIceDeer(choiceContext, player, cardSource),
+            () => TriggerFireCrane(choiceContext, player, cardSource, cardPlay),
+            () => TriggerStoneBear(choiceContext, player, cardSource)
+        ];
+
+        Func<Task>? selected =
+            combatState.RunState.Rng.CombatCardGeneration.NextItem(options);
+
+        if (selected == null)
+        {
+            return;
+        }
+
+        await selected();
+    }
+
+    /// <summary>
+    /// 触发当前形态的共鸣。
+    /// 如果当前没有五灵形态，则随机触发一种形态共鸣。
+    /// </summary>
+    public static async Task TriggerCurrentFormResonance(
+        PlayerChoiceContext choiceContext,
+        Player player,
+        CardModel cardSource,
+        CardPlay cardPlay
+    )
+    {
+        Creature creature = player.Creature;
+
+        if (creature.HasPower<IronTigerFormPower>())
+        {
+            await TriggerIronTiger(choiceContext, player, cardSource);
+            return;
+        }
+
+        if (creature.HasPower<WoodApeFormPower>())
+        {
+            await TriggerWoodApe(choiceContext, player, cardSource);
+            return;
+        }
+
+        if (creature.HasPower<IceDeerFormPower>())
+        {
+            await TriggerIceDeer(choiceContext, player, cardSource);
+            return;
+        }
+
+        if (creature.HasPower<FireCraneFormPower>())
+        {
+            await TriggerFireCrane(choiceContext, player, cardSource, cardPlay);
+            return;
+        }
+
+        if (creature.HasPower<StoneBearFormPower>())
+        {
+            await TriggerStoneBear(choiceContext, player, cardSource);
+            return;
+        }
+
+        await TriggerRandomFormResonance(
+            choiceContext,
+            player,
+            cardSource,
+            cardPlay
+        );
+    }
+
+    private static bool CanIceDeerGenerate(CardModel card)
+    {
+        if (!card.ShouldShowInCardLibrary)
+        {
+            return false;
+        }
+
+        if (!card.CanBeGeneratedInCombat)
+        {
+            return false;
+        }
+
+        if (card.Type is not (CardType.Attack or CardType.Skill or CardType.Power))
+        {
+            return false;
+        }
+
+        if (card.Rarity is not (CardRarity.Common or CardRarity.Uncommon or CardRarity.Rare))
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+    private static async Task AddRandomIceDeerGeneratedCardToHand(
+        PlayerChoiceContext choiceContext,
+        Player player,
+        ICombatState combatState,
+        CardModel cardSource
+    )
+    {
+        List<CardModel> candidates = ModelDb.AllCards
+            .Where(CanIceDeerGenerate)
+            .ToList();
+
+        if (candidates.Count == 0)
+        {
+            return;
+        }
+
+        CardModel? canonicalCard =
+            combatState.RunState.Rng.CombatCardGeneration.NextItem(candidates);
+
+        if (canonicalCard == null)
+        {
+            return;
+        }
+
+        CardModel generatedCard =
+            combatState.CreateCard(canonicalCard, player);
+
+        generatedCard.AddKeyword(CardKeyword.Ethereal);
+        generatedCard.AddKeyword(CardKeyword.Exhaust);
+
+        await GeneratedCardEffectUtils.ApplyOnGeneratedCardEffects(
+            choiceContext,
+            player,
+            generatedCard,
+            cardSource
+        );
+
+        await CardPileCmd.AddGeneratedCardToCombat(
+            generatedCard,
+            PileType.Hand,
+            player
+        );
+    }
+
+    /// <summary>
+    /// 当前形态的共鸣计数增加指定层数。
+    /// 如果当前没有五灵形态，则不增加任何计数。
+    /// 这里只增加计数，不触发该形态的共鸣效果，也不消耗灵源印记。
+    /// </summary>
+    public static async Task AddCurrentFormResonanceCount(
+        PlayerChoiceContext choiceContext,
+        Player player,
+        CardModel cardSource,
+        decimal amount
+    )
+    {
+        if (amount <= 0)
+        {
+            return;
+        }
+
+        Creature creature = player.Creature;
+
+        if (creature.HasPower<IronTigerFormPower>())
+        {
+            await PowerCmd.Apply<IronTigerResonanceCountPower>(
+                choiceContext,
+                creature,
+                amount,
+                creature,
+                cardSource,
+                silent: true
+            );
+            return;
+        }
+
+        if (creature.HasPower<WoodApeFormPower>())
+        {
+            await PowerCmd.Apply<WoodApeResonanceCountPower>(
+                choiceContext,
+                creature,
+                amount,
+                creature,
+                cardSource,
+                silent: true
+            );
+            return;
+        }
+
+        if (creature.HasPower<IceDeerFormPower>())
+        {
+            await PowerCmd.Apply<IceDeerResonanceCountPower>(
+                choiceContext,
+                creature,
+                amount,
+                creature,
+                cardSource,
+                silent: true
+            );
+            return;
+        }
+
+        if (creature.HasPower<FireCraneFormPower>())
+        {
+            await PowerCmd.Apply<FireCraneResonanceCountPower>(
+                choiceContext,
+                creature,
+                amount,
+                creature,
+                cardSource,
+                silent: true
+            );
+            return;
+        }
+
+        if (creature.HasPower<StoneBearFormPower>())
+        {
+            await PowerCmd.Apply<StoneBearResonanceCountPower>(
+                choiceContext,
+                creature,
+                amount,
+                creature,
+                cardSource,
+                silent: true
+            );
+        }
+    }
+
+    /// <summary>
+    /// 依次触发五种形态的共鸣一次。
+    /// 每一种共鸣都会走 TryStartResonance，因此每次都需要消耗 2 层灵源印记。
+    /// </summary>
+    public static async Task TriggerAllFormResonanceOnce(
+        PlayerChoiceContext choiceContext,
+        Player player,
+        CardModel cardSource,
+        CardPlay cardPlay
+    )
+    {
+        await TriggerIronTiger(
+            choiceContext,
+            player,
+            cardSource
+        );
+
+        await TriggerWoodApe(
+            choiceContext,
+            player,
+            cardSource
+        );
+
+        await TriggerIceDeer(
+            choiceContext,
+            player,
+            cardSource
+        );
+
+        await TriggerFireCrane(
+            choiceContext,
+            player,
+            cardSource,
+            cardPlay
+        );
+
+        await TriggerStoneBear(
+            choiceContext,
+            player,
+            cardSource
+        );
     }
 
     /// <summary>
@@ -134,6 +423,7 @@ public static class FiveSpiritResonance
     /// <summary>
     /// 冰鹿共鸣：
     /// 所有敌人在本回合失去 X 点力量。
+    /// 随机从所有可生成卡池中生成 1 张牌加入手牌，该牌获得虚无和消耗。
     /// X = 本场战斗冰鹿共鸣次数。
     /// </summary>
     public static async Task TriggerIceDeer(
@@ -164,27 +454,32 @@ public static class FiveSpiritResonance
             .Where(enemy => enemy.IsAlive)
             .ToList();
 
-        if (enemies.Count == 0)
+        if (enemies.Count > 0)
         {
-            return;
+            await PowerCmd.Apply<StrengthPower>(
+                choiceContext,
+                enemies,
+                -value,
+                player.Creature,
+                cardSource
+            );
+
+            await PowerCmd.Apply<IceDeerStrengthDownCleanupPower>(
+                choiceContext,
+                enemies,
+                value,
+                player.Creature,
+                cardSource,
+                silent: true
+            );
         }
 
-        await PowerCmd.Apply<StrengthPower>(
-        choiceContext,
-        enemies,
-        -value,
-        player.Creature,
-        cardSource
-    );
-
-    await PowerCmd.Apply<IceDeerStrengthDownCleanupPower>(
-        choiceContext,
-        enemies,
-        value,
-        player.Creature,
-        cardSource,
-        silent: true
-    );
+        await AddRandomIceDeerGeneratedCardToHand(
+            choiceContext,
+            player,
+            combatState,
+            cardSource
+        );
     }
 
     /// <summary>

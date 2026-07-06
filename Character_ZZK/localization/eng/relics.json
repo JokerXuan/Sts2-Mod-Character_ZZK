@@ -1,5 +1,5 @@
 {
     "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.title": "Five-Spirit Lock",
-    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.description": "At the start of combat, gain [blue]2[/blue] Spirit Source Mark. Before you draw each turn, if you have no Five-Spirit Awakening card in hand, add a random one whose form you are not currently in to your hand.",
+    "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.description": "At the start of combat, gain [blue]1[/blue] Spirit Source Mark. Before you draw each turn, add a random Awakening card if you have none; Awakening cards cost [blue]1[/blue] less until played.",
     "CHARACTER_ZZK_RELIC_FIVE_SPIRIT_LOCK.flavor": "Five-Spirit Power, transform!"
 }

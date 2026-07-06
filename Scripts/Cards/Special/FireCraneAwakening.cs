@@ -73,7 +73,11 @@ public class FireCraneAwakening : ModCardTemplate
     {
     }
 
-    public static async Task CreateInHand(Player owner, ICombatState combatState)
+    public static async Task CreateInHand(
+        Player owner,
+        PlayerChoiceContext choiceContext,
+        ICombatState combatState
+    )
     {
         if (!combatState.IsLiveCombat())
         {
@@ -81,6 +85,13 @@ public class FireCraneAwakening : ModCardTemplate
         }
 
         FireCraneAwakening card = combatState.CreateCard<FireCraneAwakening>(owner);
+
+        await GeneratedCardEffectUtils.ApplyOnGeneratedCardEffects(
+            choiceContext,
+            owner,
+            card,
+            null
+        );
 
         await CardPileCmd.AddGeneratedCardToCombat(
             card,
