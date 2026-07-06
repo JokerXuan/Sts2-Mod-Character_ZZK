@@ -23,7 +23,7 @@ public class PiggyDream : ModCardTemplate
 {
     private const int BaseEnergyCost = 1;
     private const CardType CardKind = CardType.Skill;
-    private const CardRarity CardRareLevel = CardRarity.Common;
+    private const CardRarity CardRareLevel = CardRarity.Basic;
     private const TargetType CardTarget = TargetType.Self;
     private const bool ShowInCardLibrary = true;
 

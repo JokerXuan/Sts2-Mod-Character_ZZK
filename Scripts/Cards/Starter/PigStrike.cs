@@ -24,7 +24,7 @@ public class PigStrike : ModCardTemplate
     // 否则会和父类 CardModel 的成员重名。
     private const int BaseEnergyCost = 1;
     private const CardType CardKind = CardType.Attack;
-    private const CardRarity CardRareLevel = CardRarity.Common;
+    private const CardRarity CardRareLevel = CardRarity.Basic;
     private const TargetType CardTarget = TargetType.AnyEnemy;
     private const bool ShowInCardLibrary = true;
 
